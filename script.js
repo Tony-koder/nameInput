@@ -8,9 +8,9 @@ const out2 = document.querySelector('#p2')
 const out3 = document.querySelector('#p3')
 
 function submit() {
-    out1.innerHTML = inputUsername.value
-    out2.innerHTML = inputEmail.value
-    out3.innerHTML = inputPassword.value
+    out1.innerHTML = `The Subject's Username is ${inputUsername.value}`
+    out2.innerHTML = `The Subject's Email is ${inputEmail.value}`
+    out3.innerHTML = `The Subject's Password is ${inputPassword.value}`
 
 }
 function output() {
